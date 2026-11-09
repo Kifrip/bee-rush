@@ -1,0 +1,2 @@
+# ADR 0001 — Phaser 3 and procedural assets
+Accepted. The user requires Phaser 3. Game Creator's installed Phaser template currently lists Phaser 4.1; retain its architectural conventions and adapt the scaffold to pinned Phaser 3.90.0. Procedural pixel matrices and the built-in Web Audio workflow avoid paid services and external assets. A responsive logical viewport preserves legibility in portrait. All balance knobs are centralized. UI and audio react to EventBus events. localStorage failures degrade gracefully.

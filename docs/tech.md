@@ -1,0 +1,2 @@
+# Technology
+Phaser 3.90.0, Vite 7, ES modules, browser Canvas/WebGL, Arcade physics, Web Audio, localStorage. Adapted Game Creator Phaser template architecture: Constants, singleton EventBus, singleton GameState, Game scene orchestrator, independent input/effects/nectar/enemy systems and audio bridge. DOM UI for crisp responsive and accessible buttons/text. Runtime has no network dependencies. Game Creator browser-test.mjs and cdp.mjs are vendored with their original license. Production tests run Vite preview, not the development server.

@@ -1,0 +1,19 @@
+
+> bee-rush@1.0.0 build
+> vite build
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 27 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     6.12 kB │ gzip:   2.14 kB
+dist/assets/index-CD64Kcqf.css      8.73 kB │ gzip:   2.82 kB
+dist/assets/index-DIXSby77.js      24.12 kB │ gzip:   9.51 kB
+dist/assets/phaser-DXXWZowi.js  1,208.05 kB │ gzip: 332.16 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.88s

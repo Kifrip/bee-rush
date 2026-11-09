@@ -1,0 +1,14 @@
+{
+  "generation": "Game Creator game-assets procedural palette-index workflow",
+  "externalDownloads": [],
+  "paidServices": false,
+  "assets": [
+    {"key":"bee", "source":"src/sprites/insects.js", "size":[24,20], "frames":2, "animation":"18 fps wing flap"},
+    {"key":"hornet", "source":"src/sprites/insects.js", "size":[24,20], "frames":2, "animation":"14 fps wing flap"},
+    {"key":"flower-pink / purple / white", "source":"src/sprites/flowers.js", "size":[16,18], "animation":"sway and regrowth pulse"},
+    {"key":"garden", "source":"src/level/Garden.js", "generation":"seeded pixel canvas: meadow, stone path, fence, hedge, pond and lily pad"},
+    {"key":"spark", "source":"src/level/Assets.js", "size":[2,2], "uses":["ambient pollen","nectar bursts"]},
+    {"key":"garden music", "source":"src/audio/music.js", "generation":"original 112 BPM Web Audio triangle/sine sequencer: 64-step melody, 16-step bass, 12-step arpeggio"},
+    {"key":"sound effects", "source":"src/audio/sfx.js", "generation":"one-shot oscillator envelopes for nectar, damage, difficulty and results"}
+  ]
+}

@@ -1,0 +1,16 @@
+✔ [desktop] production boot, readable garden, moving bee and clean console (3881.033711ms)
+✔ [mobile] production boot, readable garden, moving bee and clean console (1554.45804ms)
+✔ [desktop] pause freezes time and movement, resume works, mute persists (2677.74576ms)
+✔ [mobile] pause freezes time and movement, resume works, mute persists (1842.119578ms)
+✔ [desktop] pointer joystick moves bee, release stops, layout stays within viewport (2635.089541ms)
+✔ [mobile] pointer joystick moves bee, release stops, layout stays within viewport (1784.91777ms)
+✔ [desktop] resize preserves round, remains legible, and audio synthesizes a signal (3040.08238ms)
+✔ [mobile] resize preserves round, remains legible, and audio synthesizes a signal (2502.689166ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20112.810785

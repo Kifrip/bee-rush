@@ -1,0 +1,62 @@
+export const RULES = {
+  DURATION: 60,
+  HEALTH: 3,
+  TIER_SECONDS: 15,
+  COMBO_SECONDS: 4,
+  COMBO_STEP: 3,
+  MAX_MULTIPLIER: 5,
+  NECTAR_POINTS: 10,
+  INVULNERABLE: 1.7,
+  FLOWER_RESPAWN: 3.2,
+};
+export const WORLD = {
+  WIDTH: 960,
+  HEIGHT: 560,
+  MIN_WIDTH: 320,
+  MAX_WIDTH: 1400,
+  MARGIN: 38,
+  FLOWERS: 15,
+  FLOWER_SCALE: 2.5,
+  PLAYER_SCALE: 2.5,
+  ENEMY_SCALE: 2.3,
+  PLAYER_SPEED: 220,
+  ACCEL: 12,
+  PLAYER_RADIUS: 9,
+  FLOWER_RADIUS: 11,
+  ENEMY_RADIUS: 8,
+  ENEMY_COUNT: 2,
+  ENEMY_SPEED: 67,
+  ENEMY_SPEED_STEP: 18,
+  ENEMY_CHASE: 0.25,
+  ENEMY_TURN: 2.8,
+  MAX_DELTA: 0.05,
+};
+export const FX = {
+  BURST: 14,
+  POOL: 96,
+  LIFE: 650,
+  SPEED: 90,
+  SHAKE_MS: 130,
+  SHAKE: 0.003,
+  FADE: 350,
+  TOAST_MS: 1800,
+};
+export const AUDIO = {
+  BPM: 112,
+  LOOKAHEAD: 0.12,
+  TICK: 25,
+  GAIN: 0.45,
+  NOTE: 0.17,
+};
+export const STORAGE = { BEST: "bee-rush:best:v1", MUTE: "bee-rush:mute:v1" };
+export const COLORS = {
+  INK: 0x42344d,
+  GRASS: 0x8dbd66,
+  GRASS_LIGHT: 0x9bc873,
+  GRASS_DARK: 0x77aa59,
+  HONEY: 0xffd55a,
+  CREAM: 0xfff6d9,
+  LILAC: 0xba9ee4,
+  CORAL: 0xee8a92,
+  WHITE: 0xffffff,
+};

@@ -1,0 +1,3 @@
+Bee Rush complete: Phaser 3, Game Creator event/state/system architecture, original procedural pixel-art and Web Audio, responsive keyboard/touch UI, local best score. Full QA: production build and 4 unit + 18 browser tests pass. Final rotation fix has targeted release regression checks. See QA.md and qa/ for evidence. Source, production build, README, tests and manual-only Pages workflow included. Physical-device/audio listening and subjective feel await user playtest. No deployment or monetization performed.
+
+2026-11-09 follow-up: user authorized GitHub push and Pages deployment under kifrip. Local repository initialized and publish script prepared. Network/authentication blocks prevent upload; see docs/deployment.md. Not deployed.
