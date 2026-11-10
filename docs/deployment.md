@@ -1,4 +1,6 @@
-# GitHub Pages deployment
+# GitHub Pages deployment (historical)
+
+> Superseded on 2026-11-10: the game is now published on Cloudflare Workers at https://pg-bee-rush.register-c02.workers.dev/ (see README → Hosting). GitHub Pages is disabled.
 
 The user explicitly authorized pushing to the kifrip account and deploying via GitHub Pages on 2026-11-09, superseding the original local-only instruction.
 

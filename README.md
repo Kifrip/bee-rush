@@ -45,8 +45,10 @@ Browser QA requires installed Chrome/Chromium; set `BOOP_CHROME=/path/to/chromiu
 
 Source structure: `src/core` foundations/orchestrator, `gameplay` nectar and hornets, `systems` input/effects, `level` procedural art, `sprites` pixel data, `audio` music/SFX/bridge, `ui` responsive DOM interface. All gameplay balance lives in `src/core/Constants.js`. QA inspection hooks are available: `render_game_to_text()`, `advanceTime(ms)`, `__GAME__`, `__GAME_STATE__`, `__EVENT_BUS__` and `__EVENTS__`. These are local test hooks, not an anti-cheat boundary.
 
-## GitHub Pages (configuration only)
-`.github/workflows/pages.yml` is **manual dispatch only**. Nothing is deployed automatically. To publish later: put this source in your own repository, enable Settings → Pages → GitHub Actions, and explicitly run the Deploy Bee Rush workflow. It installs from lockfile, runs unit/build checks, uploads `dist`, and deploys Pages. Vite's relative base supports repository subpaths. Browser QA is run locally; this manual deployment workflow does not install Chromium.
+## Hosting
+Published on Cloudflare Workers: **https://pg-bee-rush.register-c02.workers.dev/**
+
+`wrangler.jsonc` serves the Vite build (`dist/`) as static assets from the Worker `pg-bee-rush`. Cloudflare Workers Builds runs `npm run test:unit && npm run build` and then `npx wrangler@4 deploy` on every push to `main`; if the tests or the build fail, nothing is deployed. `.github/workflows/ci.yml` runs the same checks on GitHub (it does not publish). GitHub Pages is no longer used. Browser QA is run locally.
 
 ## Attribution
 Art, music and game logic are original procedural work created for Bee Rush. Game Creator architecture/template and browser QA helper provenance is in `THIRD_PARTY.md`. Phaser and Vite retain their respective upstream licenses in npm packages.
