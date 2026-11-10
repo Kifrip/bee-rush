@@ -1,0 +1,26 @@
+{
+  "slug": "bee-rush",
+  "title": "Bee Rush",
+  "shortDescription": "Chase the blooms. Dodge the buzz. Your inbox can wait.",
+  "description": "Fly through a pixel-art garden, collect nectar, and chain flowers for a growing score multiplier. Dodge increasingly busy hornets and protect your three hearts through a 60-second harvest.",
+  "coverAlt": "Bee Rush gameplay with a bee, flowers, and hornets in a pixel-art garden",
+  "primaryCategory": "Arcade",
+  "categories": [
+    "Arcade",
+    "Casual"
+  ],
+  "controls": [
+    "Use WASD or the arrow keys to fly. On a touchscreen or with a mouse, press and drag in the garden for a floating joystick; release to brake.",
+    "Collect flowers to earn nectar and keep your streak going. Avoid hornets: damage breaks the streak and costs a heart.",
+    "P or Escape pauses and resumes. M toggles audio. Use Fly again or press Space on the results screen to start another harvest."
+  ],
+  "languages": "English",
+  "saveNote": "Your personal best and mute preference are stored locally in this browser. Active harvests are not saved for later. Switching tabs pauses play; blocked storage does not prevent playing.",
+  "accent": "coral",
+  "schemaVersion": 1,
+  "status": "published",
+  "dimension": "2D",
+  "featured": false,
+  "showSource": false,
+  "startQuery": ""
+}

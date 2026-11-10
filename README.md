@@ -1,3 +1,5 @@
+> Publishing now uses [the organization GitHub Actions pipeline](docs/platform-publishing.md). This supersedes older deployment notes below.
+
 # Bee Rush 🐝
 A complete, self-contained Phaser 3 garden arcade game. Collect nectar, chain a sweet streak, and outfly the hornets in a 60-second harvest.
 

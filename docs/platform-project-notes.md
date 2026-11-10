@@ -1,0 +1,2 @@
+# Bee Rush maintenance
+Read docs/gameplan.md, docs/tech.md and docs/STATE.md first. Follow Game Creator conventions: centralized balance in src/core/Constants.js, singleton state and EventBus, independent systems, cleanup on scene shutdown. Keep Phaser on major version 3. Run npm test (build + unit + production browser tests) after changes. Do not deploy or add paid/external services without user instructions. Update docs and QA.md to reflect actual evidence.
